@@ -1,0 +1,34 @@
+
+#header{
+    background-image: url(images/image2.png);
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+
+#services{
+    background-color: rgb(218, 212, 212) ;
+    padding: 10px 40px;
+    
+}
+
+
+#reviews{
+    padding: 10px 40px;
+    background-color: black;
+}
+
+#options{
+    padding: 10px 40px;
+    background-color: rgb(218, 212, 212);
+    display: flex;
+}
+
+
+.foot{
+    padding: 10px 40px;
+    background-image: url(images/image8.png);
+    color: white;
+    text-align: center;
+
+}
