@@ -5,6 +5,89 @@
     padding-bottom: 10%;
 }
 
+nav{
+    float: right;
+   font-weight: bolder;
+    font-size: 20px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+   
+    
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #F19201;
+}
+
+h4{
+    color: #F19201;
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+
+
+.head{
+    padding: -100px;
+    margin: auto;
+    margin: top -150px;;
+    
+}
+.head::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo{
+    float: left;
+    color: #F19201;
+    padding-left: 50px;
+    font-size: 20px;
+    
+}
+
+nav ul li button{
+    font-size: 20px;
+    background-color:#F19201 ;
+    border: none; 
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.intro{
+    color: white;
+    line-height: 3rem;
+    margin-top: 6%;
+    margin-left: 4%;
+    font-size: 2rem;
+    
+}
+
+#buttn{
+    font-size: 20px;
+    margin-left: 4%;
+    background-color: #F19201;
+    border:none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    margin-top: 7%;
+   
+}
+
+
+
 
 #services{
     background-color: rgb(218, 212, 212) ;
@@ -12,10 +95,35 @@
     
 }
 
+.service{
+    text-align: center;
+}
+
+.service h2{
+    color:#f19201;
+
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 50px 50px;
+    align-content: center;
+    
+}
+
 
 #reviews{
     padding: 10px 40px;
     background-color: black;
+}
+
+
+.org{
+    color: white;
+    float: right;
+    width: 50%;
+    
 }
 
 #options{
