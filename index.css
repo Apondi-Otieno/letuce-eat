@@ -1,4 +1,17 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+html{
+    font-family: 'roboto';
+}
+
+
+
+
+
+
+
+
+
 #header{
     background-image: url(images/image2.png);
     background-size: cover;
@@ -49,6 +62,7 @@ h4{
     content: '';
     display: table;
     clear: both;
+    box-sizing: border-box;
 }
 .logo{
     float: left;
@@ -197,10 +211,11 @@ nav ul li button{
 
 .menu .option1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    font-size: 25px ;
+    width: 50%;
     flex-direction: row;
-    font-size: 25px;
-    margin-left: 9%;
+    
 }
 
 .menu .option2{
@@ -215,8 +230,7 @@ nav ul li button{
     display: flex;
    
     text-align: center;
-  
-    padding: 25px ;
+    padding: 25px 50px ;
 }
 
 .menu .option1 #beefstew{
@@ -277,6 +291,14 @@ color: #F19201;
     background-image: url(images/image8.png);
     color: white;
     text-align: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
