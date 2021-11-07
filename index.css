@@ -9,6 +9,7 @@ nav{
     float: right;
    font-weight: bolder;
     font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.411);
 }
 nav ul {
     margin: 0;
@@ -61,8 +62,10 @@ nav ul li button{
     font-size: 20px;
     background-color:#F19201 ;
     border: none; 
-    padding: 15px 30px;
+    padding: 15px 20px;
     text-align: center;
+    margin-bottom: 5%;
+    
 }
 
 .intro{
@@ -105,17 +108,52 @@ nav ul li button{
 }
 .options{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 20px;
-    padding: 50px 50px;
+    padding: 50px ;
     align-content: center;
-    
+    margin: 0px 6px;
 }
 
+#one{
 
+    border-radius: 50%;
+    padding: 15px 20px;
+    border: none;
+    background-color: #F19201;
+    color: white;
+
+}
+
+#wan{
+
+    border: unset;
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+}
+
+#tu{
+    border: unset;
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+
+}
+
+#thrii{
+    border: unset;
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+}
 #reviews{
     padding: 10px 40px;
     background-color: black;
+}
+
+.revs{
+    margin-left: 0%;
 }
 
 
@@ -123,14 +161,19 @@ nav ul li button{
     color: white;
     float: right;
     width: 50%;
+    text-align: center;
+    margin-bottom: 50%;
     
 }
+
+.org
 
 #options{
     padding: 10px 40px;
     background-color: rgb(218, 212, 212);
     display: flex;
 }
+
 
 
 .foot{
@@ -140,3 +183,4 @@ nav ul li button{
     text-align: center;
 
 }
+
