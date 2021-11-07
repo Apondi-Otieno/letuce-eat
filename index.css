@@ -183,8 +183,95 @@ nav ul li button{
     display: flex;
 }
 
+.menu{
+    padding: 0;
+}
 
+.menu .menyu{
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-style: italic;
+    margin: 0px 180px;
+}
 
+.menu .option1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 25px;
+    margin-left: 9%;
+}
+
+.menu .option2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 25px;
+    margin-left: 9%;
+}
+
+.menu .option1 #chapati{
+    display: flex;
+   
+    text-align: center;
+  
+    padding: 25px ;
+}
+
+.menu .option1 #beefstew{
+    display: flex;
+   
+    text-align: center;
+  
+    padding: 25px ;
+}
+
+.menu .option2 #chickenstew{
+    display: flex;
+   
+    text-align: center;
+  
+    padding: 25px ;
+}
+
+.menu .option2 #rais{
+    display: flex;
+   
+    text-align: center;
+  
+    padding: 25px ;
+}
+
+.menu .option1 img{
+    padding: 35px 10px;
+    background-color: white;
+
+}
+
+.menu .option2 img{
+    padding: 35px;
+    background-color: white;
+}
+
+.menu p{
+    font-style: italic;
+}
+
+.menu h2{
+color: #F19201;
+
+}
+
+.menu button{
+    background-color: rgb(187, 179, 179);
+    padding: 12px 20px;
+    border: none;
+}
+
+.menu h6{
+    color: #F19201;
+}
 .foot{
     padding: 10px 40px;
     background-image: url(images/image8.png);
@@ -193,3 +280,24 @@ nav ul li button{
 
 }
 
+.foot button{
+    padding:  20px 40px ;
+    background-color: rgb(196, 186, 186);
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+
+.foot p{
+    font-style: italic;
+    padding-top: 50px;
+
+}
+
+.foot h2{
+    color: white;
+}
+
+.foot button:hover{
+    color: #F19201;
+}
