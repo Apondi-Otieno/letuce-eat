@@ -214,46 +214,39 @@ nav ul li button{
     justify-content: space-evenly;
     font-size: 25px ;
     width: 50%;
-    flex-direction: row;
+    flex-direction: column;
     
 }
 
 .menu .option2{
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
     font-size: 25px;
     margin-left: 9%;
 }
 
 .menu .option1 #chapati{
     display: flex;
-   
     text-align: center;
     padding: 25px 50px ;
 }
 
 .menu .option1 #beefstew{
     display: flex;
-   
     text-align: center;
-  
     padding: 25px ;
 }
 
 .menu .option2 #chickenstew{
     display: flex;
-   
     text-align: center;
-  
     padding: 25px ;
 }
 
 .menu .option2 #rais{
     display: flex;
-   
     text-align: center;
-  
     padding: 25px ;
 }
 
