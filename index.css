@@ -12,7 +12,7 @@ html{
 
 
 
-#header{
+.header{
     background-image: url(images/image2.png);
     background-size: cover;
     padding-bottom: 10%;
@@ -106,7 +106,7 @@ nav ul li button{
 
 
 
-#services{
+.services{
     background-color: rgb(218, 212, 212) ;
     padding: 10px 40px;
     
@@ -161,7 +161,7 @@ nav ul li button{
     background-color: white;
     padding: 50px;
 }
-#reviews{
+.reviews{
     padding: 10px 40px;
     background-color: black;
     display: flex;
@@ -191,10 +191,11 @@ nav ul li button{
 
 
 
-#options{
+.options{
     padding: 10px 40px;
     background-color: rgb(218, 212, 212);
     display: flex;
+    flex-direction: row;
 }
 
 .menu{
@@ -214,14 +215,14 @@ nav ul li button{
     justify-content: space-evenly;
     font-size: 25px ;
     width: 50%;
-    flex-direction: column;
+    flex-direction: row;
     
 }
 
 .menu .option2{
     display: flex;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 25px;
     margin-left: 9%;
 }
