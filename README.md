@@ -19,6 +19,7 @@ This website shows a traditional food restaurant website, alongside the prices a
  2. CSS
 
 ### LiveLInk
+https://apondi-otieno.github.io/letuce-eat/
 
 ### Known Bugs
 There are no bugs at the moment but if you spot any reach me at apondioti@gmail.com
