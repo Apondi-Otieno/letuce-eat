@@ -9,7 +9,7 @@ THis website shows a traditional food restaurant website, alongside the prices a
 
 ### Set-up and installation requirements
 
- 1. Go to my repo at https://github.com/Apondi-Otieno/Burger-Palace.git
+ 1. Go to my repo at https://github.com/Apondi-Otieno/letuce-eat.git
  2. Clone the repo
  3. cd the project, then go live.
 
