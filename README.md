@@ -5,7 +5,7 @@
 Apondi Beryl Otieno
 
 ## Project Description
-THis website shows a traditional food restaurant website, alongside the prices and the various flavours offered. 
+This website shows a traditional food restaurant website, alongside the prices and the various flavours offered. 
 
 ### Set-up and installation requirements
 
