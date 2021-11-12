@@ -1,4 +1,5 @@
 
+@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
 html{
     font-family: 'roboto';
@@ -12,7 +13,7 @@ html{
 
 
 
-.header{
+#header{
     background-image: url(images/image2.png);
     background-size: cover;
     padding-bottom: 10%;
@@ -106,7 +107,7 @@ nav ul li button{
 
 
 
-.services{
+#services{
     background-color: rgb(218, 212, 212) ;
     padding: 10px 40px;
     
@@ -122,7 +123,7 @@ nav ul li button{
 }
 .options{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 20px;
     padding: 50px ;
     align-content: center;
@@ -145,10 +146,22 @@ nav ul li button{
     text-align: center;
     background-color: white;
     padding: 50px;
+    height: 70%;
+    width: 30%;
+    margin-left: 2%;
+    background-color: #fff;
+    padding-bottom: 50px;
+    border-radius: 7px;
 }
 
 #tu{
     border: unset;
+    height: 70%;
+    width: 30%;
+    margin-left: 5%;
+    background-color: #fff;
+    padding-bottom: 50px;
+    border-radius: 7px;
     text-align: center;
     background-color: white;
     padding: 50px;
@@ -160,19 +173,53 @@ nav ul li button{
     text-align: center;
     background-color: white;
     padding: 50px;
+    height: 70%;
+    width: 30%;
+    margin-left: 5%;
+    background-color: #fff;
+    padding-bottom: 50px;
+    border-radius: 7px;
 }
-.reviews{
-    padding: 10px 40px;
+#reviews{
+    
     background-color: black;
     display: flex;
+    height: 33rem
+
+}
+
+.riv{
+    
+    height: 100%;
+    margin-left: -3%;
+    width: 50%;
+    float: left;
+    margin-left: 0.1%;
 }
 .org{
     float: right;
     width: 40%;
-    font-size: 2.0rem;
-    text-align: center;
+    font-size: 1.3rem
     padding-left: 20px;
     color: white;
+    
+}
+.org{
+    text-align: center;
+}
+
+.org>h1 {
+    font-size: 2.5rem;
+
+}
+
+.org>h3 {
+    font-size: 2rem;
+
+}
+
+.org>p {
+    font-size: 1.5rem;
 }
 
 
@@ -190,12 +237,11 @@ nav ul li button{
 }
 
 
-
-.options{
+#options{
     padding: 10px 40px;
     background-color: rgb(218, 212, 212);
     display: flex;
-    flex-direction: row;
+    height: 55rem;
 }
 
 .menu{
@@ -205,63 +251,76 @@ nav ul li button{
 .menu .menyu{
     text-align: center;
     padding: 50px;
-    font-size: 20px;
+    font-size: 22px;
     font-style: italic;
     margin: 0px 180px;
 }
 
-.menu .option1{
+#opt{
     display: flex;
-    justify-content: space-evenly;
-    font-size: 25px ;
-    width: 50%;
-    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 15%;
     
 }
 
-.menu .option2{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    font-size: 25px;
-    width: 50%;
-}
 
-.menu .option1 #chapati{
+.option4 {
     display: flex;
-    text-align: center;
-    padding: 25px;
-    flex-direction: row;
+    justify-content: flex-start;
+    height: 150px;
+    width: 350px;
+    background-color: #FFF;
+    margin:15px;
+    padding: 30px;
+    background-color: white;
     
 }
 
-.menu .option1 #beefstew{
-    display: flex;
-    text-align: center;
-    padding: 25px;
-}
 
-.menu .option2 #chickenstew{
+.option1 {
     display: flex;
-    text-align: center;
-    padding: 25px ;
-}
-
-.menu .option2 #rais{
-    display: flex;
-    text-align: center;
-    padding: 25px ;
-}
-
-.menu .option1 img{
-    padding: 35px 10px;
+    justify-content: flex-start;
+    height: 150px;
+    width: 350px;
+    background-color: #FFF;
+    margin:15px;
+    padding: 30px;
     background-color: white;
-
+    
 }
 
-.menu .option2 img{
-    padding: 35px;
+.option2 {
+    display: flex;
+    justify-content: flex-start;
+    height: 150px;
+    width: 350px;
+    background-color: #FFF;
+    margin:15px;
+    padding: 30px;
     background-color: white;
+    
+}
+.option3 {
+    display: flex;
+    justify-content: flex-start;
+    height: 150px;
+    width: 350px;
+    background-color: #FFF;
+    margin:15px;
+    padding: 30px;
+    background-color: white;
+    
+}
+
+.option4>.four{
+    height: 150px;
+    width: 150px;
+}
+
+.txt{
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 50%;
 }
 
 .menu p{
@@ -290,7 +349,7 @@ color: #F19201;
     background-size: cover;
     background-position: center;
     display: flex;
-    height: 63vh;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -299,11 +358,12 @@ color: #F19201;
 }
 
 .foot button{
-    padding:  20px 40px ;
-    background-color: rgb(196, 186, 186);
-    font-size: 20px;
-    border: none;
+    padding: 22px;
     color: white;
+    background-color: rgba(229, 229, 238, 0);
+    width: 12%;
+    text-align: center;
+    margin-bottom: 1%;
 }
 
 .foot p{
@@ -318,4 +378,10 @@ color: #F19201;
 
 .foot button:hover{
     color: #F19201;
+}
+
+.ft {
+    background-color: black;
+    width: 106%;
+    margin-bottom: -1%;
 }
