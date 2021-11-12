@@ -1,17 +1,14 @@
 
 @
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+
+
+/* header section */
+
 html{
-    font-family: 'roboto';
+    font-family: 'roboto'; 
+    /*this will change the font of the entire document to roboto */
 }
-
-
-
-
-
-
-
-
 
 #header{
     background-image: url(images/image2.png);
@@ -106,6 +103,7 @@ nav ul li button{
 
 
 
+/*services section*/
 
 #services{
     background-color: rgb(218, 212, 212) ;
@@ -180,6 +178,9 @@ nav ul li button{
     padding-bottom: 50px;
     border-radius: 7px;
 }
+
+/*reviews section*/
+
 #reviews{
     
     background-color: black;
@@ -236,7 +237,7 @@ nav ul li button{
     text-underline-offset: centre ;
 }
 
-
+/*ptions section */
 #options{
     padding: 10px 40px;
     background-color: rgb(218, 212, 212);
@@ -341,6 +342,9 @@ color: #F19201;
 .menu h6{
     color: #F19201;
 }
+
+/*footer section*/
+
 .foot{
     padding: 10px 40px;
     background-image: url(images/image8.png);
